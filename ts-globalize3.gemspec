@@ -30,11 +30,11 @@ Gem::Specification.new do |s|
     s.add_development_dependency lib, version
   end
 
-  {
-    'globalize3'         => '~> 0.2.0',
-    'thinking-sphinx'    => '~> 2.0.5'
-  }.each do |lib, version|
-    s.add_runtime_dependency lib, version
-  end
+  # {
+  #   'globalize3'         => '~> 0.2.0',
+  #   'thinking-sphinx'    => '~> 2.0.5'
+  # }.each do |lib, version|
+  #   s.add_runtime_dependency lib, version
+  # end
 
 end
